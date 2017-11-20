@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notitial</string>
+    <string name="app_logo">Notitial App Logo</string>
+    <string name="studentid_hint">Student ID</string>
+    <string name="password_hint">********</string>
+    <string name="login_button">LOG IN</string>
+</resources>
