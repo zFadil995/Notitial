@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "298967239155",
+    "firebase_url": "https://notitia-mobile.firebaseio.com",
+    "project_id": "notitia-mobile",
+    "storage_bucket": "notitia-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298967239155:android:e01f84c58d71d726",
+        "android_client_info": {
+          "package_name": "ba.zfadil995.notitial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298967239155-tndi18qv29ok0m7ctj0ju2cgjhp5njbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHQmzRd7BwGXDC1cFfkS3N7pXZ4qDGLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
