@@ -17,14 +17,14 @@ import java.util.concurrent.TimeoutException;
 
 public enum APIClient {
     Instance;
-    private RequestQueue requestQueue;
     private final String baseUrl = "https://mobile.notitial.com/api/";
+    private RequestQueue requestQueue;
 
     public void InitAPIClient(Context context){
         requestQueue = Volley.newRequestQueue(context);
     }
 
-    public boolean LogIn(final String studentID, final String password){
+    public String LogIn(final String studentID, final String password) {
         final String url = baseUrl.concat("login");
 
         RequestFuture<String> future = RequestFuture.newFuture();
@@ -41,9 +41,9 @@ public enum APIClient {
 
         try {
             String response = future.get(30, TimeUnit.SECONDS);
-            return true;
+            return "token";
         } catch (InterruptedException | TimeoutException | ExecutionException e) {
-            return false;
+            return "";
         }
     }
     public boolean GetGrades(){
